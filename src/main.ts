@@ -2,9 +2,9 @@ require('dotenv').config()
 const cron = require('node-cron')
 import chalk from 'chalk'
 
-import { AxieMarketplaceController } from 'src/controllers'
-import { AxieMarketplaceService, BotTelegramService } from 'src/services'
-import { logger } from 'src/utils'
+import { AxieMarketplaceController } from '@controllers/index'
+import { AxieMarketplaceService, BotTelegramService } from '@services/index'
+import { logger } from '@utils/index'
 
 const main = async () => {
   //Services
