@@ -1,8 +1,8 @@
 import chalk from 'chalk'
 
-import { AxieMarketplaceService, BotTelegramService } from 'src/services'
-import { Axie, InformationsAxieMessage } from 'src/interfaces'
-import { formatterMessageTelegram, logger } from 'src/utils'
+import { AxieMarketplaceService, BotTelegramService } from '@services/index'
+import { Axie, InformationsAxieMessage } from '@interfaces/index'
+import { formatterMessageTelegram, logger } from '@utils/index'
 
 export class AxieMarketplaceController {
 

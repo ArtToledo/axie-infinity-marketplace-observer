@@ -1,4 +1,4 @@
-import { InformationsAxieMessage } from 'src/interfaces'
+import { InformationsAxieMessage } from '@interfaces/index'
 
 export const formatterMessageTelegram = (data: InformationsAxieMessage) => {
   const { id, name, price } = data
