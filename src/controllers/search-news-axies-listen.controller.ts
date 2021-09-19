@@ -41,7 +41,6 @@ export class AxieMarketplaceController {
         }
       }
 
-      this.botTelegramService.sendMessage('ola')
       log(chalk.bgGreen(`Axies found: ${axiesWithSuggestedPrice}`))
     } catch (error) {
       log(chalk.bgRed('Error processing axies data'))
